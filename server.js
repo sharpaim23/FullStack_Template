@@ -23,8 +23,6 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 app.use(cors())
 
-
-
-  app.listen(process.env.PORT || PORT, () =>{
+app.listen(process.env.PORT || PORT, () =>{
     console.log(`Server is listening on PORT`);
 })
