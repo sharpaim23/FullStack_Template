@@ -5,23 +5,25 @@
 
 //3. Declare variables
 
-//4. Connect to MongoDB - add connection string to .env file
+//4. Create .gitignore file and push to github
 
-//5. Add .env file to .gitignore
+//5. Connect to MongoDB - add connection string to .env file
 
-//6. Create Port
+//6. Add .env file to .gitignore
+
+//7. Create Port
 
 //----Test Mongo and Port Connection
 
-//7. Set Middleware
-
-//8. Create .gitignore file
+//8. Set Middleware
 
 //9. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views 
 
-//10. From root, init local git repo and commit
+//10. Add content to main.js, style.css, and index.ejs
 
-//11. Create heroku repo
+//11. From root, init local git repo and commit
+
+//12. Create heroku repo
 
 // heroku login
 // heroku create *name of app*
