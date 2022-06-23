@@ -4,6 +4,7 @@ const MongoClient = require('mongodb').MongoClient
 const cors = require('cors')
 require('dotenv').config()
 
+
 let db,
     dbConnectionStr = process.env.DB_STRING,
     dbName = 'sample_mflix',
@@ -15,3 +16,10 @@ MongoClient.connect(dbConnectionStr)
     db = client.db(dbName)
     collection = db.collection('movies')
   })
+
+
+
+
+  app.listen(process.env.PORT || PORT, () =>{
+    console.log(`Server is listening on PORT`);
+})
