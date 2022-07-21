@@ -1,12 +1,11 @@
 {
   "name": "appinstructions",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a basic template to use to set up a server.js, main.js, style.css, index.ejs, .env, and .gitignore.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,10 +14,18 @@
     "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "mongodb": "^4.7.0"
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.16"
-    
-  }
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharpaim23/appInstructions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sharpaim23/appInstructions/issues"
+  },
+  "homepage": "https://github.com/sharpaim23/appInstructions#readme"
 }
